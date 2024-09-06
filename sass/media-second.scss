@@ -1,0 +1,10 @@
+@media (max-width: 694px){
+  .userchoice{
+    &-icon{
+      filter: invert(0) brightness(0);
+    }
+    &-image{
+      filter: invert(0) brightness(0);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@media (max-width: 694px) {
+  .userchoice-icon {
+    -webkit-filter: invert(0) brightness(0);
+            filter: invert(0) brightness(0);
+  }
+  .userchoice-image {
+    -webkit-filter: invert(0) brightness(0);
+            filter: invert(0) brightness(0);
+  }
+}
