@@ -1,0 +1,43 @@
+.subscribe{
+  padding: 72px 0 48px 0;
+  &-inner{
+    @include flex(66px);
+    justify-content: center;
+    align-items: center;
+    min-height: 315px;
+    flex-wrap: wrap;
+    background: $color-price;
+  }
+  &-text{
+    max-width: 395px;
+  }
+  &-title{
+    max-width: 237px;
+    @include font(500, 36px, auto);
+    color: $color-card-active;
+    margin-bottom: 24px;
+  }
+  &-suptext{
+    @include font(400, 15px, 140%);
+    color: $color-darklite;
+  }
+  &-form{
+    display: flex;
+  }
+  &-input-email{
+    width: 264px;
+    height: 59px;
+    padding-left: 12px;
+    border: none;
+    outline: 0;
+    cursor: text;
+  }
+  &-btn{
+    padding: 20px 32px;
+    width: 155px;
+    height: 59px;
+    @extend %size-500-16px;
+    color: $color-text-primary;
+    background: $color-button;
+  }
+}

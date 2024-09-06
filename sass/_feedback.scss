@@ -1,0 +1,77 @@
+.feedback{
+  padding: 88px 0 144px 0;
+  &-inner{
+    @include flex(192px);
+    justify-content: space-between;
+  }
+  &-block-text{
+    margin-top: 55px;
+    width: 338px;
+  }
+  &-item{
+    width: 48px;
+    height: 40px;
+    padding: 8px 12px;
+    box-shadow: $box-shadow-different-second;
+    background: $color-card;
+    @extend %mb-32;
+  }
+  &-text{
+    @include font(400, 16px, 140%);
+    color: $color-text-secondary;
+    margin-bottom: 16px;
+    &-date{
+      @extend %size-500-16px;
+      @extend %mb-32;
+      color: $color-text-primary;
+    }
+    &-author{
+      @include flex(16px);
+      align-items: center;
+      margin-bottom: 56px;
+      &-name{
+        @extend %size-500-16px;
+        margin-bottom: 8px;
+        color: $color-text-primary;
+      }
+      &-status{
+        font-size: 13px;
+        color: $color-text-secondary;
+      }
+    }
+  }
+  &-arrow{
+    @include flex(24px);
+    &-item{
+      width: 32px;
+      height: 32px;
+      padding: 4px;
+      background: $color-card;
+      box-shadow: $box-shadow-different-second;
+      cursor: pointer;
+    }
+  }
+  &-watch{
+    position: relative;
+    &-bg{
+      width: 450px;
+      height: 450px;
+      background: $color-price;
+    }
+    &-image{
+      position: absolute;
+      top: 0;
+      width: 450px;
+      height: 450px;
+      background-image: url(../images/feedback-image.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: transform 0.3s ease;
+    }
+    &:hover{
+      .feedback-watch-image{
+        transform: translate(-96px, 96px);
+      }
+    }
+  }
+}

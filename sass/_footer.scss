@@ -1,0 +1,36 @@
+.footer{
+  padding: 72px 0 48px 0;
+  &-inner{
+    @include flex(175px);
+  }
+  &-list{
+    margin-bottom: 64px;
+  }
+  &-item{
+    color: $color-text-secondary;
+    margin-bottom: 12px;
+    &:hover{
+      text-decoration: underline;
+    }
+    &-block{
+      @include flex(16px);
+    }
+  }
+  &-title{
+    color: $color-text-primary;
+    margin-bottom: 24px;
+  }
+  &-hr{
+    border: 1px solid $color-hr;
+    max-width: 1023px;
+    margin-bottom: 48px;
+  }
+  &-copy{
+    @include flex(4px);
+    justify-content: center;
+    &-text{
+      font-size: 13px;
+      color: $color-footer-copyright;
+    }
+  }
+}

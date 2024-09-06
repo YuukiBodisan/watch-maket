@@ -1,0 +1,88 @@
+.arrivals{
+  height: 606px;
+  padding: 72px 0 48px 0;
+  &-block-title{
+    margin: 0 auto;
+    max-width: 150px
+  }
+  &-title{
+    @extend %block-title-title;
+    color: $color-text-primary;
+    margin-bottom: 64px;
+  }
+  &-list{
+    @include flex(24px);
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  &-item{
+    position: relative;
+    padding: 40px 0 48px 0;
+    border: 1px solid #333;
+    flex-basis: 238px;
+    text-align: center;
+    background: $color-card;
+    box-shadow: $box-shadow-different;
+    transition: 0.3s;
+    &:hover{
+      padding: 32px 0 48px 0;
+      background: $color-price;
+      .arrivals-btn{
+        display: block;
+        margin: 0 auto;
+      }
+      .arrivals-name{
+        color: $color-card-active;
+      }
+      .arrivals-price{
+        margin-bottom: 24px;
+        color: $color-card-active;
+      }
+      .arrivals-new{
+        background: $color-button;
+        color: $color-text-primary;
+      }
+    }
+  }
+  &-image{
+    width: 130px;
+    height: 224px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  &-name{
+    @extend %name-price-card;
+    color: $color-text-primary;
+    margin-bottom: 12px;
+  }
+  &-price{
+    @extend %name-price-card;
+    color: $color-price;
+  }
+  &-new{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 65px;
+    height: 34px;
+    padding: 8px 16px;
+    @extend %name-price-pcoduct;
+    color: $color-text-primary;
+    background: $color-price;
+  }
+  &-btn{
+    display: none;
+    width: 152px;
+    height: 56px;
+    @extend %name-price-pcoduct;
+    color: $color-text-primary;
+    box-shadow: $box-shadow-different;
+    background: $color-button;
+    transition: 0.5s;
+    &:hover{
+      box-shadow: 0 0 10px $color-card-active;
+      transition: 0.5s;
+    }
+  }
+}

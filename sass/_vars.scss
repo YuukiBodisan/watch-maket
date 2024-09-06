@@ -1,0 +1,48 @@
+$color-price: #EFBE8A;
+$color-button: #3D3D3D;
+$color-text-primary: #F2F2F2;
+$color-text-secondary: #BFBFBF;
+$color-active: #FFB568;
+$bg-dark: #1F1F1F;
+$color-card: #292929;
+$color-card-stroke: #333333;
+$color-card-active: #2e2e2e;
+$color-darklite: #595959;
+$color-button-dark: #2B2B2B;
+$color-hr: #333;
+$color-footer-copyright: #8c8c8c;
+$color-basic-white: #fff;
+$roboto-font: "Roboto", sans-serif;
+$box-shadow-different: 0 12px 24px 0 rgba(26, 26, 26, 0.2);
+$box-shadow-different-second: 0 4px 12px 0 rgba(51, 51, 51, 0.1);
+
+@mixin flex($gap){
+  display: flex;
+  gap: $gap;
+}
+@mixin font($weight, $size, $l-height){
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $l-height;
+}
+%name-price-card{
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+%block-title-title{
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+}
+%name-price-pcoduct{
+  font-weight: 500;
+  font-size: 14px;
+}
+%size-500-16px{
+  font-weight: 500;
+  font-size: 16px;
+}
+%mb-32{
+  margin-bottom: 32px;
+}

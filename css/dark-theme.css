@@ -1,0 +1,163 @@
+body {
+  background-color: #fff;
+}
+
+.menu-link {
+  color: #2e2e2e;
+}
+.menu-link:hover {
+  color: #FFB568;
+}
+
+.home-title {
+  color: #2e2e2e;
+}
+.home-suptext {
+  color: #595959;
+}
+.home-price {
+  color: #FFB568;
+}
+.home-btn {
+  background: #2B2B2B;
+}
+.home-btn:hover {
+  -webkit-box-shadow: 0 0 15px #FFB568;
+          box-shadow: 0 0 15px #FFB568;
+}
+
+.featured-title {
+  color: #2e2e2e;
+}
+.featured-item {
+  border: 1px solid #f0f0f0;
+  background: #fff;
+}
+.featured-sale {
+  background: #FFB568;
+}
+.featured-price {
+  color: #FFB568;
+}
+.featured-name {
+  color: #2e2e2e;
+}
+.featured-btn {
+  background: #2B2B2B;
+}
+.featured-btn:hover {
+  -webkit-box-shadow: 0 0 15px #FFB568;
+          box-shadow: 0 0 15px #FFB568;
+}
+
+.story-watch-bg {
+  background: #FFB568;
+}
+.story-text-title {
+  color: #2e2e2e;
+}
+.story-text-main-title {
+  color: #2e2e2e;
+}
+.story-text-suptext {
+  color: #595959;
+}
+.story-text-btn {
+  background: #2B2B2B;
+}
+.story-text-btn:hover {
+  -webkit-box-shadow: 0 0 15px #FFB568;
+          box-shadow: 0 0 15px #FFB568;
+}
+
+.products-title {
+  color: #2e2e2e;
+}
+.products-item {
+  border: 1px solid #f0f0f0;
+  background: #fff;
+}
+.products-name {
+  color: #2e2e2e;
+}
+.products-price {
+  color: #FFB568;
+}
+.products-bag {
+  background: #2B2B2B;
+}
+
+.feedback-item {
+  background: #fff;
+}
+.feedback-text {
+  color: #595959;
+}
+.feedback-text-date {
+  color: #2e2e2e;
+}
+.feedback-text-author-name {
+  color: #2e2e2e;
+}
+.feedback-text-author-status {
+  color: #595959;
+}
+.feedback-arrow-item {
+  background: #fff;
+}
+.feedback-watch-bg {
+  background: #FFB568;
+}
+
+.arrivals-title {
+  color: #2e2e2e;
+}
+.arrivals-item {
+  border: 1px solid #f0f0f0;
+  background: #fff;
+}
+.arrivals-item:hover {
+  background: #FFB568;
+}
+.arrivals-item:hover .arrivals-new {
+  background: #2B2B2B;
+}
+.arrivals-name {
+  color: #2e2e2e;
+}
+.arrivals-new {
+  background: #FFB568;
+}
+.arrivals-price {
+  color: #FFB568;
+}
+.arrivals-btn {
+  background: #2B2B2B;
+}
+.arrivals-btn:hover {
+  -webkit-box-shadow: 0 0 10px #2e2e2e;
+          box-shadow: 0 0 10px #2e2e2e;
+}
+
+.subscribe-inner {
+  background: #FFB568;
+}
+.subscribe-title {
+  color: #2e2e2e;
+}
+.subscribe-suptext {
+  color: #595959;
+}
+.subscribe-btn {
+  background: #2B2B2B;
+}
+
+.footer-title {
+  color: #2e2e2e;
+}
+.footer-item {
+  color: #595959;
+}
+.footer-hr {
+  border: 1px solid #f0f0f0;
+}

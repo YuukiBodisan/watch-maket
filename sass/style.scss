@@ -1,0 +1,32 @@
+@import 'vars';
+@import 'reset';
+@import 'header';
+@import 'home';
+@import 'featured';
+@import 'story';
+@import 'products';
+@import 'feedback';
+@import 'arrivals';
+@import 'subscribe';
+@import 'footer';
+
+body{
+  background-color: $bg-dark;
+  font-family: $roboto-font;
+}
+.container{
+  max-width: 1054px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.line{
+  border: 1px solid $color-price;
+  width: 67px;
+  height: 0px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.different{
+  margin: 0;
+  margin-bottom: 16px;
+}

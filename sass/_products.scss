@@ -1,0 +1,53 @@
+.products{
+  padding: 72px 0 48px 0;
+  &-block-title{
+    margin: 0 auto;
+    max-width: 103px
+  }
+  &-title{
+    @extend %block-title-title;
+    color: $color-text-primary;
+    margin-bottom: 64px;
+  }
+  &-list{
+    @include flex(40px);
+    margin: 0 auto;
+    align-items: flex-start;
+    max-width: 680px;
+    flex-wrap: wrap;
+  }
+  &-item{
+    position: relative;
+    padding: 32px 0;
+    border: 1px solid #333;
+    flex-basis: 200px;
+    text-align: center;
+    background: $color-card;
+    &:hover{
+      box-shadow: $box-shadow-different;
+    }
+  }
+  &-image{
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  &-name{
+    @extend %name-price-pcoduct;
+    color: $color-text-primary;
+    margin-bottom: 8px;
+  }
+  &-price{
+    @extend %name-price-pcoduct;
+    color: $color-price;
+  }
+  &-bag{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: $color-button;
+  }
+}

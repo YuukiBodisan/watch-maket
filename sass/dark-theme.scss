@@ -1,0 +1,188 @@
+@import 'vars';
+body{
+  background-color: $color-basic-white;
+}
+// ---header---
+.menu{
+  &-link{
+    color: $color-card-active;
+    &:hover{
+      color: $color-active;
+    }
+  }
+}
+// ---home---
+.home{
+  &-title{
+    color: $color-card-active;
+  }
+  &-suptext{
+    color: $color-darklite;
+  }
+  &-price{
+    color: $color-active;
+  }
+  &-btn{
+    background: $color-button-dark;
+    &:hover{
+      box-shadow: 0 0 15px $color-active;
+    }
+  }
+}
+// ---featured---
+.featured{
+  &-title{
+    color: $color-card-active;
+  }
+  &-item{
+    border: 1px solid #f0f0f0;
+    background: $color-basic-white;
+  }
+  &-sale{
+    background: $color-active;
+  }
+  &-price{
+    color: $color-active;
+  }
+  &-name{
+    color: $color-card-active;
+  }
+  &-btn{
+    background: $color-button-dark;
+    &:hover{
+      box-shadow: 0 0 15px $color-active;
+    }
+  }
+}
+// ---story---
+.story{
+  &-watch{
+    &-bg{
+      background: $color-active;
+    }
+  }
+  &-text{
+    &-title{
+      color: $color-card-active;
+    }
+    &-main-title{
+      color: $color-card-active;
+    }
+    &-suptext{
+      color: $color-darklite;
+    }
+    &-btn{
+      background: $color-button-dark;
+      &:hover{
+        box-shadow: 0 0 15px $color-active;
+      }
+    }
+  }
+}
+// ---products---
+.products{
+  &-title{
+    color: $color-card-active;
+  }
+  &-item{
+    border: 1px solid #f0f0f0;
+    background: $color-basic-white;
+  }
+  &-name{
+    color: $color-card-active;
+  }
+  &-price{
+    color: $color-active;
+  }
+  &-bag{
+    background: $color-button-dark;
+  }
+}
+// ---feedback---
+.feedback{
+  &-item{
+    background: $color-basic-white;
+  }
+  &-text{
+    color: $color-darklite;
+    &-date{
+      color: $color-card-active;
+    }
+    &-author{
+      &-name{
+        color: $color-card-active;
+      }
+      &-status{
+        color: $color-darklite;
+      }
+    }
+  }
+  &-arrow{
+    &-item{
+      background: $color-basic-white;
+    }
+  }
+  &-watch{
+    &-bg{
+      background: $color-active;
+    }
+  }
+}
+// ---arrivals---
+.arrivals{
+  &-title{
+    color: $color-card-active;
+  }
+  &-item{
+    border: 1px solid #f0f0f0;
+    background: $color-basic-white;
+    &:hover{
+      background: $color-active;
+      .arrivals-new{
+        background: $color-button-dark;
+      }
+    }
+  }
+  &-name{
+    color: $color-card-active;
+  }
+  &-new{
+    background: $color-active;
+  }
+  &-price{
+    color: $color-active;
+  }
+  &-btn{
+    background: $color-button-dark;
+    &:hover{
+      box-shadow: 0 0 10px $color-card-active;
+    }
+  }
+}
+// ---subscribe---
+.subscribe{
+  &-inner{
+    background: $color-active;
+  }
+  &-title{
+    color: $color-card-active;
+  }
+  &-suptext{
+    color: $color-darklite;
+  }
+  &-btn{
+    background: $color-button-dark
+  }
+}
+// ---footer---
+.footer{
+  &-title{
+    color: $color-card-active;
+  }
+  &-item{
+    color: $color-darklite;
+  }
+  &-hr{
+    border: 1px solid #f0f0f0;
+  }
+}

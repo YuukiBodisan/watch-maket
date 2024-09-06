@@ -1,0 +1,62 @@
+.header{
+  padding: 27px 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  &-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+}
+.nav{
+  @include flex(62px);
+}
+.menu{
+  @include flex(40px);
+  &-link{
+    font-family: $roboto-font;
+    font-weight: 500;
+    font-size: 15px;
+    color: $color-text-primary;
+    &:hover{
+      color: $color-active;
+    }
+  }
+}
+.userchoice{
+  @include flex(16px);
+  margin-right: 25px;
+}
+
+// ---Колись повернусь сюди з JS---
+
+// &-theme{
+//   &-switcher{
+//     position: relative;
+//   }
+//   &-input{
+//     display: none;
+//   }
+//   &-btn{
+//     width: 20px;
+//     height: 20px;
+//     position: relative;
+//     cursor: pointer;
+//   }
+// }
+// &-light-icon{
+//   opacity: 1;
+// }
+// &-dark-icon{
+//   opacity: 0;
+// }
+// &-icon{
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   transition: opacity 0.4s;
+// }

@@ -1,0 +1,39 @@
+.home{
+  @extend %mb-32;
+  &-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-text{
+    max-width: 367px;
+  }
+  &-title{
+    @include font(700, 40px, 140%);
+    color: $color-text-primary;
+    margin-bottom: 16px;
+  }
+  &-suptext{
+    @include font(400, 16px, 140%);
+    color: $color-text-secondary;
+    margin-bottom: 24px;
+  }
+  &-price{
+    @include font(500, 24px, auto);
+    color: $color-price;
+    margin-bottom: 45px;
+  }
+  &-btn{
+    width: 165px;
+    height: 59px;
+    @include font(500, 16px, auto);
+    color: $color-text-primary;
+    box-shadow: $box-shadow-different;
+    background: $color-button;
+    transition: 0.5s;
+    &:hover{
+      box-shadow: 0 0 5px $color-text-primary;
+      transition: 0.5s;
+    }
+  }
+}
